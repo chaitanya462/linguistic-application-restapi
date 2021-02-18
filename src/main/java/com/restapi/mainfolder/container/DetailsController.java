@@ -23,7 +23,7 @@ import com.restapi.mainfolder.repository.DetailsRep;
 
 
 @RestController
-@CrossOrigin(origins="http://localhost:3000")
+@CrossOrigin(origins="*")
 @RequestMapping("/details")
 public class DetailsController {
 	
